@@ -65,7 +65,7 @@ int main() {
         int size;
         cout << "Enter the size of the array: ";
         cin >> size;
-        cin.ignore(); // Ignore the remaining newline character
+        cin.ignore(); 
 
         
         if (size < 2 || size > 10000) {
